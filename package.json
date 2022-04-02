@@ -16,11 +16,17 @@
     "type": "git",
     "url": "git+https://github.com/olivertembo/matrix-interpolation.git"
   },
-  "keywords": ["matrix", "interpolation"],
+  "keywords": [
+    "matrix",
+    "interpolation"
+  ],
   "author": "olivertembo <tembokoliver3@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/olivertembo/matrix-interpolation/issues"
   },
-  "homepage": "https://github.com/olivertembo/matrix-interpolation#readme"
+  "homepage": "https://github.com/olivertembo/matrix-interpolation#readme",
+  "dependencies": {
+    "my-package": "^0.0.0"
+  }
 }
