@@ -1,15 +1,15 @@
 {
-  "name": "mmatrix-interpolation",
+  "name": "matrix-interpolation",
   "version": "1.0.0",
-  "private": true,
   "description": "",
-  "main": "index.js",
-  "types": "./src/types/index.d.ts",
-  "dependencies": {
+  "main": "lib/interpolateMatrix",
+  "types": "./lib/index.d.ts",
+  "devDependencies": {
     "typescript": "next"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm ./lib/* && tsc",
     "prepublish": "tsc"
   },
   "repository": {
